@@ -1,0 +1,11 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\bin\Debug\netcoreapp2.1\Lesson3.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\bin\Debug\netcoreapp2.1\Lesson3.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\bin\Debug\netcoreapp2.1\Lesson3.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\bin\Debug\netcoreapp2.1\Lesson3.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\bin\Debug\netcoreapp2.1\Lesson3.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\obj\Debug\netcoreapp2.1\Lesson3.csprojAssemblyReference.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\obj\Debug\netcoreapp2.1\Lesson3.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\obj\Debug\netcoreapp2.1\Lesson3.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\obj\Debug\netcoreapp2.1\Lesson3.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\obj\Debug\netcoreapp2.1\Lesson3.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson3\obj\Debug\netcoreapp2.1\Lesson3.pdb
