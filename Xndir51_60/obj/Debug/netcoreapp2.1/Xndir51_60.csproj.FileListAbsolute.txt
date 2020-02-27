@@ -1,0 +1,10 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\bin\Debug\netcoreapp2.1\Xndir51_60.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\bin\Debug\netcoreapp2.1\Xndir51_60.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\bin\Debug\netcoreapp2.1\Xndir51_60.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\bin\Debug\netcoreapp2.1\Xndir51_60.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\bin\Debug\netcoreapp2.1\Xndir51_60.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\obj\Debug\netcoreapp2.1\Xndir51_60.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\obj\Debug\netcoreapp2.1\Xndir51_60.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\obj\Debug\netcoreapp2.1\Xndir51_60.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\obj\Debug\netcoreapp2.1\Xndir51_60.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Xndir51_60\obj\Debug\netcoreapp2.1\Xndir51_60.pdb

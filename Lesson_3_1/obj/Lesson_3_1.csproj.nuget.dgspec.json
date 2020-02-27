@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Alexandr\\Workspace\\C#\\Lesson2\\Lesson2\\Lesson2.csproj": {}
+    "C:\\Alexandr\\Workspace\\C#\\c_sharp-homeworks\\Lesson_3_1\\Lesson_3_1.csproj": {}
   },
   "projects": {
-    "C:\\Alexandr\\Workspace\\C#\\Lesson2\\Lesson2\\Lesson2.csproj": {
+    "C:\\Alexandr\\Workspace\\C#\\c_sharp-homeworks\\Lesson_3_1\\Lesson_3_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Alexandr\\Workspace\\C#\\Lesson2\\Lesson2\\Lesson2.csproj",
-        "projectName": "Lesson2",
-        "projectPath": "C:\\Alexandr\\Workspace\\C#\\Lesson2\\Lesson2\\Lesson2.csproj",
+        "projectUniqueName": "C:\\Alexandr\\Workspace\\C#\\c_sharp-homeworks\\Lesson_3_1\\Lesson_3_1.csproj",
+        "projectName": "Lesson_3_1",
+        "projectPath": "C:\\Alexandr\\Workspace\\C#\\c_sharp-homeworks\\Lesson_3_1\\Lesson_3_1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Alexandr\\Workspace\\C#\\Lesson2\\Lesson2\\obj\\",
+        "outputPath": "C:\\Alexandr\\Workspace\\C#\\c_sharp-homeworks\\Lesson_3_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

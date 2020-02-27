@@ -1,0 +1,10 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\bin\Debug\netcoreapp2.1\Lesson_3_1.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\bin\Debug\netcoreapp2.1\Lesson_3_1.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\bin\Debug\netcoreapp2.1\Lesson_3_1.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\bin\Debug\netcoreapp2.1\Lesson_3_1.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\bin\Debug\netcoreapp2.1\Lesson_3_1.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\obj\Debug\netcoreapp2.1\Lesson_3_1.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\obj\Debug\netcoreapp2.1\Lesson_3_1.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\obj\Debug\netcoreapp2.1\Lesson_3_1.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\obj\Debug\netcoreapp2.1\Lesson_3_1.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\Lesson_3_1\obj\Debug\netcoreapp2.1\Lesson_3_1.pdb
