@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresentationProject", "Pres
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xndir21_36", "Xndir21_36\Xndir21_36.csproj", "{33E35B6A-24C1-4DF7-9A1C-2EAAA8C5FFAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_3_1", "Lesson_3_1\Lesson_3_1.csproj", "{5081C08B-8347-48FD-95AF-8B827C16F89B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_3_1", "Lesson_3_1\Lesson_3_1.csproj", "{5081C08B-8347-48FD-95AF-8B827C16F89B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xndir51_60", "Xndir51_60\Xndir51_60.csproj", "{5070EB46-72C1-4A0E-BD5D-5F96BF4F1772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xndir51_60", "Xndir51_60\Xndir51_60.csproj", "{5070EB46-72C1-4A0E-BD5D-5F96BF4F1772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xndir1_15", "Xndir1_15\Xndir1_15.csproj", "{A9E75817-EFB2-4C58-8791-CA74F294C380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5070EB46-72C1-4A0E-BD5D-5F96BF4F1772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5070EB46-72C1-4A0E-BD5D-5F96BF4F1772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5070EB46-72C1-4A0E-BD5D-5F96BF4F1772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E75817-EFB2-4C58-8791-CA74F294C380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E75817-EFB2-4C58-8791-CA74F294C380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E75817-EFB2-4C58-8791-CA74F294C380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E75817-EFB2-4C58-8791-CA74F294C380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "usumnarutyan_nyut.11.12.13_xndirner/1.0.0": {
+        "runtime": {
+          "usumnarutyan_nyut.11.12.13_xndirner.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "usumnarutyan_nyut.11.12.13_xndirner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

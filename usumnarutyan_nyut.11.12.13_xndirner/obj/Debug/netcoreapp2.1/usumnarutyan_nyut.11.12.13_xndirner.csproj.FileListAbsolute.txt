@@ -1,0 +1,10 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\bin\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\bin\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\bin\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\bin\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\bin\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\obj\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\obj\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\obj\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\obj\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\usumnarutyan_nyut.11.12.13_xndirner\obj\Debug\netcoreapp2.1\usumnarutyan_nyut.11.12.13_xndirner.pdb
