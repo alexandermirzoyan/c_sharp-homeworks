@@ -1,0 +1,11 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\bin\Debug\netcoreapp2.1\ampopich_xndir.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\bin\Debug\netcoreapp2.1\ampopich_xndir.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\bin\Debug\netcoreapp2.1\ampopich_xndir.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\bin\Debug\netcoreapp2.1\ampopich_xndir.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\bin\Debug\netcoreapp2.1\ampopich_xndir.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\obj\Debug\netcoreapp2.1\ampopich_xndir.csprojAssemblyReference.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\obj\Debug\netcoreapp2.1\ampopich_xndir.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\obj\Debug\netcoreapp2.1\ampopich_xndir.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\obj\Debug\netcoreapp2.1\ampopich_xndir.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\obj\Debug\netcoreapp2.1\ampopich_xndir.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\ampopich_xndir\obj\Debug\netcoreapp2.1\ampopich_xndir.pdb
