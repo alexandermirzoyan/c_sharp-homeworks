@@ -1,0 +1,10 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\bin\Debug\netcoreapp2.1\arrays_homework.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\bin\Debug\netcoreapp2.1\arrays_homework.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\bin\Debug\netcoreapp2.1\arrays_homework.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\bin\Debug\netcoreapp2.1\arrays_homework.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\bin\Debug\netcoreapp2.1\arrays_homework.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.pdb

@@ -1,0 +1,4 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_classwork\obj\Debug\netcoreapp2.1\arrays_classwork.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_classwork\obj\Debug\netcoreapp2.1\arrays_classwork.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_classwork\obj\Debug\netcoreapp2.1\arrays_classwork.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_classwork\obj\Debug\netcoreapp2.1\arrays_classwork.csprojAssemblyReference.cache
