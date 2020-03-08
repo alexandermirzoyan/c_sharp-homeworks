@@ -8,3 +8,4 @@ C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2
 C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.AssemblyInfo.cs
 C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.dll
 C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\arrays_homework\obj\Debug\netcoreapp2.1\arrays_homework.csprojAssemblyReference.cache
