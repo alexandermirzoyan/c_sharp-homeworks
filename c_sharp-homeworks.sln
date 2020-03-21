@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xndir1_15", "Xndir1_15\Xndi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ampopich_xndir", "ampopich_xndir\ampopich_xndir.csproj", "{BD6392A3-60B3-4A70-A952-75BF5BB3BA09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays_homework", "arrays_homework\arrays_homework.csproj", "{545E500A-1880-4D3B-B7AC-6B6CA3FEB07F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrays_homework", "arrays_homework\arrays_homework.csproj", "{545E500A-1880-4D3B-B7AC-6B6CA3FEB07F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays_classwork", "arrays_classwork\arrays_classwork.csproj", "{2D86EB31-FF51-42BA-B4E1-23EC49FAB8AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrays_classwork", "arrays_classwork\arrays_classwork.csproj", "{2D86EB31-FF51-42BA-B4E1-23EC49FAB8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCalculator", "FormCalculator\FormCalculator.csproj", "{B71BBAEA-AD3A-4BA7-B298-5274DDA5AB41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{2D86EB31-FF51-42BA-B4E1-23EC49FAB8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D86EB31-FF51-42BA-B4E1-23EC49FAB8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D86EB31-FF51-42BA-B4E1-23EC49FAB8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71BBAEA-AD3A-4BA7-B298-5274DDA5AB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71BBAEA-AD3A-4BA7-B298-5274DDA5AB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71BBAEA-AD3A-4BA7-B298-5274DDA5AB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71BBAEA-AD3A-4BA7-B298-5274DDA5AB41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
