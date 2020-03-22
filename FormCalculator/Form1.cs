@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ using System.Windows.Forms;
 
 namespace FormCalculator {
     public partial class Form1 : Form {
-        int firstNumber, secondNumber;
+        double firstNumber, secondNumber;
+        string operationType;
 
         public Form1() {
             InitializeComponent();
@@ -64,30 +66,96 @@ namespace FormCalculator {
             textBox1.Text = "";
         }
 
+        private void Button_delete_Click(object sender, EventArgs e) {
+            textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
+        }
+
         private void Button_plus_Click(object sender, EventArgs e) {
-            firstNumber = Convert.ToInt32(textBox1.Text);
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = "+";
             textBox1.Text = "";
         }
 
         private void Button_minus_Click(object sender, EventArgs e) {
             textBox1.Text += "-";
+            operationType = "-";
         }
 
         private void Button_multiply_Click(object sender, EventArgs e) {
-            textBox1.Text += "×";
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = "*";
+            textBox1.Text = "";
         }
 
         private void Button_devide_Click(object sender, EventArgs e) {
-            textBox1.Text += "÷";
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = "/";
+            textBox1.Text = "";
+        }
+
+        private void Button_x_square_Click(object sender, EventArgs e) {
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = "^";
+            textBox1.Text = Convert.ToString(Math.Pow(firstNumber, 2));
+        }
+
+        private void Button_1_devide_x_Click(object sender, EventArgs e) {
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = "1/x";
+            textBox1.Text = Convert.ToString(1/ firstNumber);
+        }
+
+        private void Button_sqrt_Click(object sender, EventArgs e) {
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = "sqrt";
+            textBox1.Text = Convert.ToString(Math.Sqrt(firstNumber));
+        }
+
+        private void Button_percent_Click(object sender, EventArgs e) {
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = "%";
+            textBox1.Text = "";
+        }
+
+        private void Button_plusMinus_Click(object sender, EventArgs e) {
+            if (Convert.ToDouble(textBox1.Text) > 0) {
+                firstNumber = -Convert.ToDouble(textBox1.Text);
+            }
+            else {
+                firstNumber = Convert.ToDouble(textBox1.Text);
+            }
+            operationType = "±";
+            textBox1.Text = Convert.ToString(firstNumber);
         }
 
         private void Button_equal_Click(object sender, EventArgs e) {
-            secondNumber = Convert.ToInt32(textBox1.Text);
-            textBox1.Text = Convert.ToString(firstNumber + secondNumber);
-        }
-
-        private void Button_delete_Click(object sender, EventArgs e) {
-            textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
+            secondNumber = Convert.ToDouble(textBox1.Text);
+            switch(operationType) {
+                case "+":
+                    textBox1.Text = Convert.ToString(firstNumber + secondNumber);
+                    break;
+                case "-":
+                    textBox1.Text = Convert.ToString(firstNumber - secondNumber);
+                    break;
+                case "/":
+                    textBox1.Text = Convert.ToString(firstNumber / secondNumber);
+                    break;
+                case "*":
+                    textBox1.Text = Convert.ToString(firstNumber * secondNumber);
+                    break;
+                case "^":
+                    textBox1.Text = "";
+                    break;
+                case "1/x":
+                    textBox1.Text = "";
+                    break;
+                case "sqrt":
+                    textBox1.Text = "";
+                    break;
+                case "%":
+                    textBox1.Text = Convert.ToString(firstNumber % secondNumber);
+                    break;
+            }
         }
     }
 }

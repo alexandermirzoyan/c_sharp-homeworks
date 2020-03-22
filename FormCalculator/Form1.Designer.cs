@@ -72,6 +72,7 @@
             this.button_plusMinus.TabIndex = 1;
             this.button_plusMinus.Text = "±";
             this.button_plusMinus.UseVisualStyleBackColor = true;
+            this.button_plusMinus.Click += new System.EventHandler(this.Button_plusMinus_Click);
             // 
             // button_0
             // 
@@ -267,6 +268,7 @@
             this.button_sqrt.TabIndex = 1;
             this.button_sqrt.Text = "√";
             this.button_sqrt.UseVisualStyleBackColor = false;
+            this.button_sqrt.Click += new System.EventHandler(this.Button_sqrt_Click);
             // 
             // button_1_devide_x
             // 
@@ -279,6 +281,7 @@
             this.button_1_devide_x.TabIndex = 1;
             this.button_1_devide_x.Text = "1/x";
             this.button_1_devide_x.UseVisualStyleBackColor = false;
+            this.button_1_devide_x.Click += new System.EventHandler(this.Button_1_devide_x_Click);
             // 
             // button_x_square
             // 
@@ -291,6 +294,7 @@
             this.button_x_square.TabIndex = 1;
             this.button_x_square.Text = "x²";
             this.button_x_square.UseVisualStyleBackColor = false;
+            this.button_x_square.Click += new System.EventHandler(this.Button_x_square_Click);
             // 
             // button_multiply
             // 
@@ -316,6 +320,7 @@
             this.button_percent.TabIndex = 1;
             this.button_percent.Text = "%";
             this.button_percent.UseVisualStyleBackColor = false;
+            this.button_percent.Click += new System.EventHandler(this.Button_percent_Click);
             // 
             // button_ce
             // 
@@ -359,7 +364,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(307, 401);
+            this.ClientSize = new System.Drawing.Size(310, 401);
             this.Controls.Add(this.button_delete);
             this.Controls.Add(this.button_multiply);
             this.Controls.Add(this.button_devide);
@@ -386,6 +391,7 @@
             this.Controls.Add(this.button_plusMinus);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
