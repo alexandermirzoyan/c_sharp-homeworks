@@ -13,84 +13,80 @@ namespace FormCalculator {
     public partial class Form1 : Form {
         double firstNumber, secondNumber;
         string operationType;
+        bool isInputedNumberZero = false;
+        int inputedDotCount = 0;
 
         public Form1() {
             InitializeComponent();
         }
+        private void numberClick(object sender, EventArgs e) {
+            Button button = (Button)sender;
 
-        private void Button_1_Click(object sender, EventArgs e) {
-            textBox1.Text += "1";
-        }
+            isInputedNumberZero = false;
+            string s = textBox1.Text;
 
-        private void Button_2_Click(object sender, EventArgs e) {
-            textBox1.Text += "2";
-        }
-
-        private void Button_3_Click(object sender, EventArgs e) {
-            textBox1.Text += "3";
-        }
-
-        private void Button_4_Click(object sender, EventArgs e) {
-            textBox1.Text += "4";
-        }
-
-        private void Button_5_Click(object sender, EventArgs e) {
-            textBox1.Text += "5";
-        }
-
-        private void Button_6_Click(object sender, EventArgs e) {
-            textBox1.Text += "6";
-        }
-
-        private void Button_7_Click(object sender, EventArgs e) {
-            textBox1.Text += "7";
-        }
-
-        private void Button_8_Click(object sender, EventArgs e) {
-            textBox1.Text += "8";
-        }
-
-        private void Button_9_Click(object sender, EventArgs e) {
-            textBox1.Text += "9";
+            if (s[0] != '0') {
+                textBox1.Text = textBox1.Text + button.Text;
+            }
+            else {
+                textBox1.Clear();
+                textBox1.Text = textBox1.Text + button.Text;
+            }
         }
 
         private void Button_0_Click(object sender, EventArgs e) {
-            textBox1.Text += "0";
+            if ((isInputedNumberZero != true) && (textBox1.Text != "0")) {
+                textBox1.Text = textBox1.Text + "0";
+            }
+
+            else {
+                isInputedNumberZero = true;
+            }
         }
 
         private void Button_dot_Click(object sender, EventArgs e) {
-            textBox1.Text += ".";
+            inputedDotCount++;
+            if (inputedDotCount == 1) {
+                textBox1.Text += ".";
+            }
         }
 
         private void Button_c_Click(object sender, EventArgs e) {
-            textBox1.Text = "";
+            textBox1.Text = "0";
+            inputedDotCount = 0;
         }
 
         private void Button_delete_Click(object sender, EventArgs e) {
-            textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
+            int textBoxLength = textBox1.Text.Length;
+            textBox1.Text = textBox1.Text.Remove(textBoxLength - 1, 1);
+            textBoxLength = textBox1.Text.Length;
+            if (textBoxLength == 0) {
+                textBox1.Text = "0";
+            }
         }
 
         private void Button_plus_Click(object sender, EventArgs e) {
             firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "+";
-            textBox1.Text = "";
+            textBox1.Text = "0";
         }
 
         private void Button_minus_Click(object sender, EventArgs e) {
-            textBox1.Text += "-";
+            firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "-";
+            textBox1.Text = "0";
         }
 
         private void Button_multiply_Click(object sender, EventArgs e) {
             firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "*";
-            textBox1.Text = "";
+            textBox1.Text = "0";
         }
 
         private void Button_devide_Click(object sender, EventArgs e) {
             firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "/";
-            textBox1.Text = "";
+            textBox1.Text = "0";
         }
 
         private void Button_x_square_Click(object sender, EventArgs e) {
