@@ -48,6 +48,8 @@
             this.button_ce = new System.Windows.Forms.Button();
             this.button_c = new System.Windows.Forms.Button();
             this.button_delete = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -158,7 +160,7 @@
             this.button_plus.TabIndex = 1;
             this.button_plus.Text = "+";
             this.button_plus.UseVisualStyleBackColor = false;
-            this.button_plus.Click += new System.EventHandler(this.Button_plus_Click);
+            this.button_plus.Click += new System.EventHandler(this.arithmeticOperationOnClick);
             // 
             // button_4
             // 
@@ -207,7 +209,7 @@
             this.button_minus.TabIndex = 1;
             this.button_minus.Text = "-";
             this.button_minus.UseVisualStyleBackColor = false;
-            this.button_minus.Click += new System.EventHandler(this.Button_minus_Click);
+            this.button_minus.Click += new System.EventHandler(this.arithmeticOperationOnClick);
             // 
             // button_7
             // 
@@ -256,7 +258,7 @@
             this.button_devide.TabIndex = 1;
             this.button_devide.Text = "÷";
             this.button_devide.UseVisualStyleBackColor = false;
-            this.button_devide.Click += new System.EventHandler(this.Button_devide_Click);
+            this.button_devide.Click += new System.EventHandler(this.arithmeticOperationOnClick);
             // 
             // button_sqrt
             // 
@@ -308,7 +310,7 @@
             this.button_multiply.TabIndex = 1;
             this.button_multiply.Text = "×";
             this.button_multiply.UseVisualStyleBackColor = false;
-            this.button_multiply.Click += new System.EventHandler(this.Button_multiply_Click);
+            this.button_multiply.Click += new System.EventHandler(this.arithmeticOperationOnClick);
             // 
             // button_percent
             // 
@@ -321,7 +323,7 @@
             this.button_percent.TabIndex = 1;
             this.button_percent.Text = "%";
             this.button_percent.UseVisualStyleBackColor = false;
-            this.button_percent.Click += new System.EventHandler(this.Button_percent_Click);
+            this.button_percent.Click += new System.EventHandler(this.arithmeticOperationOnClick);
             // 
             // button_ce
             // 
@@ -334,6 +336,7 @@
             this.button_ce.TabIndex = 1;
             this.button_ce.Text = "CE";
             this.button_ce.UseVisualStyleBackColor = false;
+            this.button_ce.Click += new System.EventHandler(this.Button_ce_Click);
             // 
             // button_c
             // 
@@ -361,11 +364,39 @@
             this.button_delete.UseVisualStyleBackColor = false;
             this.button_delete.Click += new System.EventHandler(this.Button_delete_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Location = new System.Drawing.Point(525, 10);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(46, 41);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "⟲";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.textBox2.Location = new System.Drawing.Point(335, 23);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(184, 20);
+            this.textBox2.TabIndex = 4;
+            this.textBox2.Text = "Recent Operations";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 401);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(583, 401);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button_delete);
             this.Controls.Add(this.button_multiply);
             this.Controls.Add(this.button_devide);
@@ -426,6 +457,8 @@
         private System.Windows.Forms.Button button_ce;
         private System.Windows.Forms.Button button_c;
         private System.Windows.Forms.Button button_delete;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

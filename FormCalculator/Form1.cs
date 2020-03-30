@@ -11,10 +11,13 @@ using System.Windows.Forms;
 
 namespace FormCalculator {
     public partial class Form1 : Form {
+        List<string> recentOperations = new List<string>();
         double firstNumber, secondNumber;
         string operationType;
         bool isInputedNumberZero = false;
         int inputedDotCount = 0;
+        int labelPositionX = 320;
+        int labelPositionY = 60;
 
         public Form1() {
             InitializeComponent();
@@ -54,6 +57,15 @@ namespace FormCalculator {
         private void Button_c_Click(object sender, EventArgs e) {
             textBox1.Text = "0";
             inputedDotCount = 0;
+            secondNumber = 0;
+        }
+
+        private void Button_ce_Click(object sender, EventArgs e) {
+            textBox1.Text = "0";
+            inputedDotCount = 0;
+            secondNumber = 0;
+            firstNumber = 0;
+            operationType = "";
         }
 
         private void Button_delete_Click(object sender, EventArgs e) {
@@ -65,92 +77,139 @@ namespace FormCalculator {
             }
         }
 
-        private void Button_plus_Click(object sender, EventArgs e) {
-            firstNumber = Convert.ToDouble(textBox1.Text);
-            operationType = "+";
-            textBox1.Text = "0";
-        }
-
-        private void Button_minus_Click(object sender, EventArgs e) {
-            firstNumber = Convert.ToDouble(textBox1.Text);
-            operationType = "-";
-            textBox1.Text = "0";
-        }
-
-        private void Button_multiply_Click(object sender, EventArgs e) {
-            firstNumber = Convert.ToDouble(textBox1.Text);
-            operationType = "*";
-            textBox1.Text = "0";
-        }
-
-        private void Button_devide_Click(object sender, EventArgs e) {
-            firstNumber = Convert.ToDouble(textBox1.Text);
-            operationType = "/";
-            textBox1.Text = "0";
-        }
-
         private void Button_x_square_Click(object sender, EventArgs e) {
             firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "^";
-            textBox1.Text = Convert.ToString(Math.Pow(firstNumber, 2));
+            double answer = Math.Pow(firstNumber, 2);
+            textBox1.Text = Convert.ToString(answer);
+
+            recentOperations.Add(firstNumber + operationType + "2" + "=" + answer);
+
+            Label label = new Label();
+
+            for (int i = 0; i < recentOperations.Count(); i++) {
+                label.Text = recentOperations.ElementAt(i);
+                label.Location = new Point(labelPositionX, labelPositionY);
+                label.AutoSize = true;
+                label.Font = new Font("Calibri", 20);
+                label.ForeColor = Color.LightSlateGray;
+                this.Controls.Add(label);
+                labelPositionY += 20;
+            }
         }
 
         private void Button_1_devide_x_Click(object sender, EventArgs e) {
             firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "1/x";
-            textBox1.Text = Convert.ToString(1/ firstNumber);
+            double answer = 1 / firstNumber;
+            textBox1.Text = Convert.ToString(answer);
+
+            recentOperations.Add("1 / " + firstNumber + "=" + answer);
+
+            Label label = new Label();
+
+            for (int i = 0; i < recentOperations.Count(); i++) {
+                label.Text = recentOperations.ElementAt(i);
+                label.Location = new Point(labelPositionX, labelPositionY);
+                label.AutoSize = true;
+                label.Font = new Font("Calibri", 20);
+                label.ForeColor = Color.LightSlateGray;
+                this.Controls.Add(label);
+                labelPositionY += 20;
+            }
         }
 
         private void Button_sqrt_Click(object sender, EventArgs e) {
             firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "sqrt";
-            textBox1.Text = Convert.ToString(Math.Sqrt(firstNumber));
+            double answer = Math.Sqrt(firstNumber);
+            textBox1.Text = Convert.ToString(answer);
+
+            recentOperations.Add(operationType + " " + firstNumber + "=" + answer);
+
+            Label label = new Label();
+            
+            for (int i = 0; i < recentOperations.Count(); i++) {
+                label.Text = recentOperations.ElementAt(i);
+                label.Location = new Point(labelPositionX, labelPositionY);
+                label.AutoSize = true;
+                label.Font = new Font("Calibri", 20);
+                label.ForeColor = Color.LightSlateGray;
+                this.Controls.Add(label);
+                labelPositionY += 20;
+            }
         }
 
         private void Button_percent_Click(object sender, EventArgs e) {
             firstNumber = Convert.ToDouble(textBox1.Text);
             operationType = "%";
-            textBox1.Text = "";
+            textBox1.Text = "0";
         }
 
         private void Button_plusMinus_Click(object sender, EventArgs e) {
-            if (Convert.ToDouble(textBox1.Text) > 0) {
-                firstNumber = -Convert.ToDouble(textBox1.Text);
-            }
-            else {
-                firstNumber = Convert.ToDouble(textBox1.Text);
-            }
+            textBox1.Text = Convert.ToString(-1 * Convert.ToDouble(textBox1.Text));
             operationType = "±";
-            textBox1.Text = Convert.ToString(firstNumber);
+        }
+
+        private void arithmeticOperationOnClick(object sender, EventArgs e) {
+            Button button = (Button)sender;
+            firstNumber = Convert.ToDouble(textBox1.Text);
+            operationType = button.Text;
+            textBox1.Text = "0";
+        }
+
+        private void Button1_Click(object sender, EventArgs e) {
+            recentOperations.Clear();
+            foreach (var tb in Controls.OfType<Label>()) {
+                tb.Text = null;
+            }
         }
 
         private void Button_equal_Click(object sender, EventArgs e) {
             secondNumber = Convert.ToDouble(textBox1.Text);
+            double answer = 0;
             switch(operationType) {
                 case "+":
-                    textBox1.Text = Convert.ToString(firstNumber + secondNumber);
+                    answer = firstNumber + secondNumber;
+                    textBox1.Text = Convert.ToString(answer);
                     break;
                 case "-":
-                    textBox1.Text = Convert.ToString(firstNumber - secondNumber);
+                    answer = firstNumber - secondNumber;
+                    textBox1.Text = Convert.ToString(answer);
                     break;
-                case "/":
-                    textBox1.Text = Convert.ToString(firstNumber / secondNumber);
+                case "÷":
+                    answer = firstNumber / secondNumber;
+                    textBox1.Text = Convert.ToString(answer);
                     break;
-                case "*":
-                    textBox1.Text = Convert.ToString(firstNumber * secondNumber);
+                case "×":
+                    answer = firstNumber * secondNumber;
+                    textBox1.Text = Convert.ToString(answer);
                     break;
-                case "^":
+                case "x²":
                     textBox1.Text = "";
                     break;
                 case "1/x":
                     textBox1.Text = "";
                     break;
-                case "sqrt":
+                case "√":
                     textBox1.Text = "";
                     break;
                 case "%":
-                    textBox1.Text = Convert.ToString(firstNumber % secondNumber);
+                    answer = (firstNumber * secondNumber) / 100;
+                    textBox1.Text = Convert.ToString(answer);
                     break;
+            }
+            recentOperations.Add(firstNumber + " " + operationType + " " + secondNumber + "=" + answer);
+
+            Label label = new Label();
+            for (int i = 0; i < recentOperations.Count(); i++) {
+                label.Text = recentOperations.ElementAt(i);
+                label.Location = new Point(labelPositionX, labelPositionY);
+                label.AutoSize = true;
+                label.Font = new Font("Calibri", 20);
+                label.ForeColor = Color.LightSlateGray;
+                this.Controls.Add(label);
+                labelPositionY += 20;
             }
         }
     }
