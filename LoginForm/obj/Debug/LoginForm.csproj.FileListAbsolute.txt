@@ -1,0 +1,12 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\bin\Debug\LoginForm.exe.config
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\bin\Debug\LoginForm.exe
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\bin\Debug\LoginForm.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.csprojAssemblyReference.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.exe
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.FormLogin.resources
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.SignUp.resources
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\LoginForm\obj\Debug\LoginForm.LoginSuccessForm.resources
