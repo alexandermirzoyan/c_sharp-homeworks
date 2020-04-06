@@ -13,5 +13,11 @@ namespace LoginForm {
         public LoginSuccessForm() {
             InitializeComponent();
         }
+
+        private void LoginSuccessForm_FormClosed(object sender, FormClosedEventArgs e) {
+            FormLogin formLogin = new FormLogin();
+            this.Hide();
+            formLogin.Show();
+        }
     }
 }

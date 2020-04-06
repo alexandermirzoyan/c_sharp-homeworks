@@ -48,6 +48,7 @@
             this.Name = "LoginSuccessForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Success";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LoginSuccessForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

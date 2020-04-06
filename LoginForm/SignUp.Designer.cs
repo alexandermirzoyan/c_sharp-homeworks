@@ -41,7 +41,11 @@
             this.TextBoxSurname = new System.Windows.Forms.TextBox();
             this.TextBoxEmail = new System.Windows.Forms.TextBox();
             this.LabelEmail = new System.Windows.Forms.Label();
+            this.PictureBoxAvatar = new System.Windows.Forms.PictureBox();
+            this.ButtonImageUpload = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.LoginFormWrapper)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // LinkLabelHelp
@@ -49,7 +53,7 @@
             this.LinkLabelHelp.AutoSize = true;
             this.LinkLabelHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LinkLabelHelp.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.LinkLabelHelp.Location = new System.Drawing.Point(11, 368);
+            this.LinkLabelHelp.Location = new System.Drawing.Point(12, 370);
             this.LinkLabelHelp.Name = "LinkLabelHelp";
             this.LinkLabelHelp.Size = new System.Drawing.Size(52, 16);
             this.LinkLabelHelp.TabIndex = 17;
@@ -64,7 +68,7 @@
             this.LinkLabelSignUp.BackColor = System.Drawing.Color.White;
             this.LinkLabelSignUp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(176)))), ((int)(((byte)(66)))));
             this.LinkLabelSignUp.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(176)))), ((int)(((byte)(66)))));
-            this.LinkLabelSignUp.Location = new System.Drawing.Point(349, 270);
+            this.LinkLabelSignUp.Location = new System.Drawing.Point(535, 281);
             this.LinkLabelSignUp.Name = "LinkLabelSignUp";
             this.LinkLabelSignUp.Size = new System.Drawing.Size(37, 13);
             this.LinkLabelSignUp.TabIndex = 16;
@@ -78,7 +82,7 @@
             this.LabelAlreadyRegistred.BackColor = System.Drawing.Color.White;
             this.LabelAlreadyRegistred.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelAlreadyRegistred.ForeColor = System.Drawing.Color.Gray;
-            this.LabelAlreadyRegistred.Location = new System.Drawing.Point(225, 268);
+            this.LabelAlreadyRegistred.Location = new System.Drawing.Point(411, 279);
             this.LabelAlreadyRegistred.Name = "LabelAlreadyRegistred";
             this.LabelAlreadyRegistred.Size = new System.Drawing.Size(118, 16);
             this.LabelAlreadyRegistred.TabIndex = 15;
@@ -90,7 +94,7 @@
             this.ButtonSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonSignUp.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ButtonSignUp.ForeColor = System.Drawing.Color.White;
-            this.ButtonSignUp.Location = new System.Drawing.Point(106, 227);
+            this.ButtonSignUp.Location = new System.Drawing.Point(293, 238);
             this.ButtonSignUp.Name = "ButtonSignUp";
             this.ButtonSignUp.Size = new System.Drawing.Size(433, 38);
             this.ButtonSignUp.TabIndex = 13;
@@ -103,7 +107,7 @@
             this.TextBoxRepeatPassowrd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxRepeatPassowrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxRepeatPassowrd.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxRepeatPassowrd.Location = new System.Drawing.Point(347, 194);
+            this.TextBoxRepeatPassowrd.Location = new System.Drawing.Point(534, 205);
             this.TextBoxRepeatPassowrd.Name = "TextBoxRepeatPassowrd";
             this.TextBoxRepeatPassowrd.PasswordChar = '*';
             this.TextBoxRepeatPassowrd.Size = new System.Drawing.Size(192, 27);
@@ -115,7 +119,7 @@
             this.TextBoxLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxLogin.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxLogin.Location = new System.Drawing.Point(347, 82);
+            this.TextBoxLogin.Location = new System.Drawing.Point(534, 93);
             this.TextBoxLogin.Name = "TextBoxLogin";
             this.TextBoxLogin.Size = new System.Drawing.Size(192, 27);
             this.TextBoxLogin.TabIndex = 11;
@@ -126,7 +130,7 @@
             this.LabelRepeatPassword.BackColor = System.Drawing.Color.White;
             this.LabelRepeatPassword.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelRepeatPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.LabelRepeatPassword.Location = new System.Drawing.Point(343, 168);
+            this.LabelRepeatPassword.Location = new System.Drawing.Point(530, 179);
             this.LabelRepeatPassword.Name = "LabelRepeatPassword";
             this.LabelRepeatPassword.Size = new System.Drawing.Size(147, 23);
             this.LabelRepeatPassword.TabIndex = 10;
@@ -138,7 +142,7 @@
             this.LabelLogin.BackColor = System.Drawing.Color.White;
             this.LabelLogin.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.LabelLogin.Location = new System.Drawing.Point(343, 56);
+            this.LabelLogin.Location = new System.Drawing.Point(530, 67);
             this.LabelLogin.Name = "LabelLogin";
             this.LabelLogin.Size = new System.Drawing.Size(52, 23);
             this.LabelLogin.TabIndex = 9;
@@ -147,9 +151,9 @@
             // LoginFormWrapper
             // 
             this.LoginFormWrapper.BackColor = System.Drawing.Color.White;
-            this.LoginFormWrapper.Location = new System.Drawing.Point(77, 1);
+            this.LoginFormWrapper.Location = new System.Drawing.Point(41, 12);
             this.LoginFormWrapper.Name = "LoginFormWrapper";
-            this.LoginFormWrapper.Size = new System.Drawing.Size(480, 352);
+            this.LoginFormWrapper.Size = new System.Drawing.Size(703, 318);
             this.LoginFormWrapper.TabIndex = 14;
             this.LoginFormWrapper.TabStop = false;
             // 
@@ -158,7 +162,7 @@
             this.TextBoxPassowrd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxPassowrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxPassowrd.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxPassowrd.Location = new System.Drawing.Point(347, 138);
+            this.TextBoxPassowrd.Location = new System.Drawing.Point(534, 149);
             this.TextBoxPassowrd.Name = "TextBoxPassowrd";
             this.TextBoxPassowrd.PasswordChar = '*';
             this.TextBoxPassowrd.Size = new System.Drawing.Size(192, 27);
@@ -171,7 +175,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.label1.Location = new System.Drawing.Point(343, 112);
+            this.label1.Location = new System.Drawing.Point(530, 123);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 23);
             this.label1.TabIndex = 18;
@@ -182,7 +186,7 @@
             this.LinkLabelExit.AutoSize = true;
             this.LinkLabelExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LinkLabelExit.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.LinkLabelExit.Location = new System.Drawing.Point(505, 368);
+            this.LinkLabelExit.Location = new System.Drawing.Point(670, 370);
             this.LinkLabelExit.Name = "LinkLabelExit";
             this.LinkLabelExit.Size = new System.Drawing.Size(109, 16);
             this.LinkLabelExit.TabIndex = 20;
@@ -196,7 +200,7 @@
             this.LabelName.BackColor = System.Drawing.Color.White;
             this.LabelName.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.LabelName.Location = new System.Drawing.Point(102, 56);
+            this.LabelName.Location = new System.Drawing.Point(289, 67);
             this.LabelName.Name = "LabelName";
             this.LabelName.Size = new System.Drawing.Size(57, 23);
             this.LabelName.TabIndex = 9;
@@ -207,7 +211,7 @@
             this.TextBoxName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxName.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxName.Location = new System.Drawing.Point(106, 82);
+            this.TextBoxName.Location = new System.Drawing.Point(293, 93);
             this.TextBoxName.Name = "TextBoxName";
             this.TextBoxName.Size = new System.Drawing.Size(192, 27);
             this.TextBoxName.TabIndex = 11;
@@ -218,7 +222,7 @@
             this.LabelSurname.BackColor = System.Drawing.Color.White;
             this.LabelSurname.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelSurname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.LabelSurname.Location = new System.Drawing.Point(102, 112);
+            this.LabelSurname.Location = new System.Drawing.Point(289, 123);
             this.LabelSurname.Name = "LabelSurname";
             this.LabelSurname.Size = new System.Drawing.Size(80, 23);
             this.LabelSurname.TabIndex = 18;
@@ -229,7 +233,7 @@
             this.TextBoxSurname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxSurname.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxSurname.Location = new System.Drawing.Point(106, 138);
+            this.TextBoxSurname.Location = new System.Drawing.Point(293, 149);
             this.TextBoxSurname.Name = "TextBoxSurname";
             this.TextBoxSurname.Size = new System.Drawing.Size(192, 27);
             this.TextBoxSurname.TabIndex = 19;
@@ -240,7 +244,7 @@
             this.TextBoxEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxEmail.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxEmail.Location = new System.Drawing.Point(106, 194);
+            this.TextBoxEmail.Location = new System.Drawing.Point(293, 205);
             this.TextBoxEmail.Name = "TextBoxEmail";
             this.TextBoxEmail.Size = new System.Drawing.Size(192, 27);
             this.TextBoxEmail.TabIndex = 22;
@@ -252,18 +256,56 @@
             this.LabelEmail.BackColor = System.Drawing.Color.White;
             this.LabelEmail.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.LabelEmail.Location = new System.Drawing.Point(102, 168);
+            this.LabelEmail.Location = new System.Drawing.Point(289, 179);
             this.LabelEmail.Name = "LabelEmail";
             this.LabelEmail.Size = new System.Drawing.Size(53, 23);
             this.LabelEmail.TabIndex = 21;
             this.LabelEmail.Text = "Email";
+            // 
+            // PictureBoxAvatar
+            // 
+            this.PictureBoxAvatar.BackColor = System.Drawing.Color.Silver;
+            this.PictureBoxAvatar.Location = new System.Drawing.Point(75, 93);
+            this.PictureBoxAvatar.Name = "PictureBoxAvatar";
+            this.PictureBoxAvatar.Size = new System.Drawing.Size(124, 121);
+            this.PictureBoxAvatar.TabIndex = 23;
+            this.PictureBoxAvatar.TabStop = false;
+            // 
+            // ButtonImageUpload
+            // 
+            this.ButtonImageUpload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(151)))), ((int)(((byte)(160)))));
+            this.ButtonImageUpload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonImageUpload.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold);
+            this.ButtonImageUpload.ForeColor = System.Drawing.Color.White;
+            this.ButtonImageUpload.Location = new System.Drawing.Point(75, 220);
+            this.ButtonImageUpload.Name = "ButtonImageUpload";
+            this.ButtonImageUpload.Size = new System.Drawing.Size(124, 38);
+            this.ButtonImageUpload.TabIndex = 24;
+            this.ButtonImageUpload.Text = "UPLOAD";
+            this.ButtonImageUpload.UseVisualStyleBackColor = false;
+            this.ButtonImageUpload.Click += new System.EventHandler(this.ButtonImageUpload_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
+            this.label2.Location = new System.Drawing.Point(71, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 23);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Avatar";
             // 
             // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.ClientSize = new System.Drawing.Size(626, 392);
+            this.ClientSize = new System.Drawing.Size(791, 392);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.ButtonImageUpload);
+            this.Controls.Add(this.PictureBoxAvatar);
             this.Controls.Add(this.TextBoxEmail);
             this.Controls.Add(this.LabelEmail);
             this.Controls.Add(this.LinkLabelExit);
@@ -286,7 +328,9 @@
             this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SignUp_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.LoginFormWrapper)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBoxAvatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -312,5 +356,8 @@
         private System.Windows.Forms.TextBox TextBoxSurname;
         private System.Windows.Forms.TextBox TextBoxEmail;
         private System.Windows.Forms.Label LabelEmail;
+        private System.Windows.Forms.PictureBox PictureBoxAvatar;
+        private System.Windows.Forms.Button ButtonImageUpload;
+        private System.Windows.Forms.Label label2;
     }
 }

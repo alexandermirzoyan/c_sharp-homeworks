@@ -33,6 +33,8 @@
             this.LinkLabelSignUp = new System.Windows.Forms.LinkLabel();
             this.LinkLabelHelp = new System.Windows.Forms.LinkLabel();
             this.LinkLabelExit = new System.Windows.Forms.LinkLabel();
+            this.LinkLabelClearLoginPassowrd = new System.Windows.Forms.LinkLabel();
+            this.CheckBoxShowPassword = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.LoginFormWrapper)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,7 +44,7 @@
             this.LabelLogin.BackColor = System.Drawing.Color.White;
             this.LabelLogin.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.LabelLogin.Location = new System.Drawing.Point(227, 56);
+            this.LabelLogin.Location = new System.Drawing.Point(205, 55);
             this.LabelLogin.Name = "LabelLogin";
             this.LabelLogin.Size = new System.Drawing.Size(52, 23);
             this.LabelLogin.TabIndex = 0;
@@ -54,7 +56,7 @@
             this.LabelPassword.BackColor = System.Drawing.Color.White;
             this.LabelPassword.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
-            this.LabelPassword.Location = new System.Drawing.Point(227, 123);
+            this.LabelPassword.Location = new System.Drawing.Point(205, 122);
             this.LabelPassword.Name = "LabelPassword";
             this.LabelPassword.Size = new System.Drawing.Size(86, 23);
             this.LabelPassword.TabIndex = 1;
@@ -65,7 +67,7 @@
             this.TextBoxLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxLogin.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxLogin.Location = new System.Drawing.Point(231, 82);
+            this.TextBoxLogin.Location = new System.Drawing.Point(209, 81);
             this.TextBoxLogin.Name = "TextBoxLogin";
             this.TextBoxLogin.Size = new System.Drawing.Size(192, 27);
             this.TextBoxLogin.TabIndex = 2;
@@ -75,12 +77,13 @@
             this.TextBoxPassowrd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TextBoxPassowrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxPassowrd.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.TextBoxPassowrd.Location = new System.Drawing.Point(231, 149);
+            this.TextBoxPassowrd.Location = new System.Drawing.Point(209, 148);
             this.TextBoxPassowrd.Name = "TextBoxPassowrd";
             this.TextBoxPassowrd.PasswordChar = '*';
             this.TextBoxPassowrd.Size = new System.Drawing.Size(192, 27);
             this.TextBoxPassowrd.TabIndex = 3;
             this.TextBoxPassowrd.TabStop = false;
+            this.TextBoxPassowrd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxPassowrd_KeyPress);
             // 
             // ButtonSignIn
             // 
@@ -88,7 +91,7 @@
             this.ButtonSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonSignIn.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ButtonSignIn.ForeColor = System.Drawing.Color.White;
-            this.ButtonSignIn.Location = new System.Drawing.Point(231, 182);
+            this.ButtonSignIn.Location = new System.Drawing.Point(209, 181);
             this.ButtonSignIn.Name = "ButtonSignIn";
             this.ButtonSignIn.Size = new System.Drawing.Size(192, 38);
             this.ButtonSignIn.TabIndex = 4;
@@ -101,7 +104,7 @@
             this.LoginFormWrapper.BackColor = System.Drawing.Color.White;
             this.LoginFormWrapper.Location = new System.Drawing.Point(135, 30);
             this.LoginFormWrapper.Name = "LoginFormWrapper";
-            this.LoginFormWrapper.Size = new System.Drawing.Size(371, 292);
+            this.LoginFormWrapper.Size = new System.Drawing.Size(386, 292);
             this.LoginFormWrapper.TabIndex = 5;
             this.LoginFormWrapper.TabStop = false;
             // 
@@ -111,7 +114,7 @@
             this.LabelNotRegistred.BackColor = System.Drawing.Color.White;
             this.LabelNotRegistred.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelNotRegistred.ForeColor = System.Drawing.Color.Gray;
-            this.LabelNotRegistred.Location = new System.Drawing.Point(230, 232);
+            this.LabelNotRegistred.Location = new System.Drawing.Point(208, 231);
             this.LabelNotRegistred.Name = "LabelNotRegistred";
             this.LabelNotRegistred.Size = new System.Drawing.Size(92, 16);
             this.LabelNotRegistred.TabIndex = 6;
@@ -124,7 +127,7 @@
             this.LinkLabelSignUp.BackColor = System.Drawing.Color.White;
             this.LinkLabelSignUp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(176)))), ((int)(((byte)(66)))));
             this.LinkLabelSignUp.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(176)))), ((int)(((byte)(66)))));
-            this.LinkLabelSignUp.Location = new System.Drawing.Point(328, 234);
+            this.LinkLabelSignUp.Location = new System.Drawing.Point(306, 233);
             this.LinkLabelSignUp.Name = "LinkLabelSignUp";
             this.LinkLabelSignUp.Size = new System.Drawing.Size(95, 13);
             this.LinkLabelSignUp.TabIndex = 7;
@@ -158,12 +161,39 @@
             this.LinkLabelExit.Text = "Exit";
             this.LinkLabelExit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelExit_LinkClicked);
             // 
+            // LinkLabelClearLoginPassowrd
+            // 
+            this.LinkLabelClearLoginPassowrd.AutoSize = true;
+            this.LinkLabelClearLoginPassowrd.BackColor = System.Drawing.Color.White;
+            this.LinkLabelClearLoginPassowrd.LinkColor = System.Drawing.Color.Red;
+            this.LinkLabelClearLoginPassowrd.Location = new System.Drawing.Point(407, 89);
+            this.LinkLabelClearLoginPassowrd.Name = "LinkLabelClearLoginPassowrd";
+            this.LinkLabelClearLoginPassowrd.Size = new System.Drawing.Size(41, 13);
+            this.LinkLabelClearLoginPassowrd.TabIndex = 10;
+            this.LinkLabelClearLoginPassowrd.TabStop = true;
+            this.LinkLabelClearLoginPassowrd.Text = "X Clear";
+            this.LinkLabelClearLoginPassowrd.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelClearLoginPassowrd_LinkClicked);
+            // 
+            // CheckBoxShowPassword
+            // 
+            this.CheckBoxShowPassword.AutoSize = true;
+            this.CheckBoxShowPassword.BackColor = System.Drawing.Color.White;
+            this.CheckBoxShowPassword.Location = new System.Drawing.Point(410, 155);
+            this.CheckBoxShowPassword.Name = "CheckBoxShowPassword";
+            this.CheckBoxShowPassword.Size = new System.Drawing.Size(101, 17);
+            this.CheckBoxShowPassword.TabIndex = 11;
+            this.CheckBoxShowPassword.Text = "Show password";
+            this.CheckBoxShowPassword.UseVisualStyleBackColor = false;
+            this.CheckBoxShowPassword.CheckedChanged += new System.EventHandler(this.CheckBoxShowPassword_CheckedChanged);
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(194)))), ((int)(((byte)(91)))));
             this.ClientSize = new System.Drawing.Size(626, 392);
+            this.Controls.Add(this.CheckBoxShowPassword);
+            this.Controls.Add(this.LinkLabelClearLoginPassowrd);
             this.Controls.Add(this.LinkLabelExit);
             this.Controls.Add(this.LinkLabelHelp);
             this.Controls.Add(this.LinkLabelSignUp);
@@ -178,6 +208,7 @@
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormLogin_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LoginFormWrapper)).EndInit();
             this.ResumeLayout(false);
@@ -197,6 +228,8 @@
         private System.Windows.Forms.LinkLabel LinkLabelSignUp;
         private System.Windows.Forms.LinkLabel LinkLabelHelp;
         private System.Windows.Forms.LinkLabel LinkLabelExit;
+        private System.Windows.Forms.LinkLabel LinkLabelClearLoginPassowrd;
+        private System.Windows.Forms.CheckBox CheckBoxShowPassword;
     }
 }
 
