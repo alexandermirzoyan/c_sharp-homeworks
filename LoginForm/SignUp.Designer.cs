@@ -268,6 +268,7 @@
             this.PictureBoxAvatar.Location = new System.Drawing.Point(75, 93);
             this.PictureBoxAvatar.Name = "PictureBoxAvatar";
             this.PictureBoxAvatar.Size = new System.Drawing.Size(124, 121);
+            this.PictureBoxAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBoxAvatar.TabIndex = 23;
             this.PictureBoxAvatar.TabStop = false;
             // 
