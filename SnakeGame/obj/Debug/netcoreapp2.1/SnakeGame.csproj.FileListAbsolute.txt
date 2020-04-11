@@ -1,0 +1,11 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.csprojAssemblyReference.cache

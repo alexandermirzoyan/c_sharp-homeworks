@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCalculator", "FormCalcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm\LoginForm.csproj", "{CE324124-FBBC-48EC-BF4F-6F3AC6239197}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{530730CE-CECA-4139-BB32-E0512EBAF166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{CE324124-FBBC-48EC-BF4F-6F3AC6239197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE324124-FBBC-48EC-BF4F-6F3AC6239197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE324124-FBBC-48EC-BF4F-6F3AC6239197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530730CE-CECA-4139-BB32-E0512EBAF166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530730CE-CECA-4139-BB32-E0512EBAF166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530730CE-CECA-4139-BB32-E0512EBAF166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530730CE-CECA-4139-BB32-E0512EBAF166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
