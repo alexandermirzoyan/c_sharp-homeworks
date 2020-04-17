@@ -1,0 +1,11 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\bin\Debug\netcoreapp2.1\MatrixBigProblem.deps.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\bin\Debug\netcoreapp2.1\MatrixBigProblem.runtimeconfig.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\bin\Debug\netcoreapp2.1\MatrixBigProblem.runtimeconfig.dev.json
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\bin\Debug\netcoreapp2.1\MatrixBigProblem.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\bin\Debug\netcoreapp2.1\MatrixBigProblem.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\obj\Debug\netcoreapp2.1\MatrixBigProblem.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\obj\Debug\netcoreapp2.1\MatrixBigProblem.AssemblyInfoInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\obj\Debug\netcoreapp2.1\MatrixBigProblem.AssemblyInfo.cs
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\obj\Debug\netcoreapp2.1\MatrixBigProblem.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\obj\Debug\netcoreapp2.1\MatrixBigProblem.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\MatrixBigProblem\obj\Debug\netcoreapp2.1\MatrixBigProblem.csprojAssemblyReference.cache

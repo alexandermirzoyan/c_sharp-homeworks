@@ -27,7 +27,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCalculator", "FormCalcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm\LoginForm.csproj", "{CE324124-FBBC-48EC-BF4F-6F3AC6239197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{530730CE-CECA-4139-BB32-E0512EBAF166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{530730CE-CECA-4139-BB32-E0512EBAF166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixBigProblem", "MatrixBigProblem\MatrixBigProblem.csproj", "{5BD3E311-FB5A-4009-8B4D-5EFF14B05ABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{530730CE-CECA-4139-BB32-E0512EBAF166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{530730CE-CECA-4139-BB32-E0512EBAF166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{530730CE-CECA-4139-BB32-E0512EBAF166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD3E311-FB5A-4009-8B4D-5EFF14B05ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD3E311-FB5A-4009-8B4D-5EFF14B05ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD3E311-FB5A-4009-8B4D-5EFF14B05ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD3E311-FB5A-4009-8B4D-5EFF14B05ABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
