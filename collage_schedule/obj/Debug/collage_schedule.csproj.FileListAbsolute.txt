@@ -1,0 +1,15 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\bin\Debug\collage_schedule.exe.config
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\bin\Debug\collage_schedule.exe
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\bin\Debug\collage_schedule.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.csprojAssemblyReference.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.Form1.resources
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.Properties.Resources.resources
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.csproj.GenerateResource.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.exe
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\bin\Debug\Interop.WMPLib.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\bin\Debug\AxInterop.WMPLib.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\Interop.WMPLib.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\AxInterop.WMPLib.dll
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\collage_schedule\obj\Debug\collage_schedule.csproj.ResolveComReference.cache
