@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ using System.Windows.Forms;
 
 namespace LoginForm {
     public partial class FormLogin : Form {
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users.mdf;Integrated Security=True;Connect Timeout=30");
+
+        String cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users.mdf;Integrated Security=True;Connect Timeout=30";
         public FormLogin() {
             InitializeComponent();
         }
@@ -18,10 +22,39 @@ namespace LoginForm {
 
         }
 
+        private bool isLogedIn() {
+            string login = TextBoxLogin.Text;
+            string password = TextBoxPassowrd.Text;
+
+            string selectQuery = "SELECT login, password FROM UsersTable WHERE login = @login AND password = @password";
+            SqlCommand command = new SqlCommand(selectQuery, connection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.AddWithValue("@login", login);
+            command.Parameters.AddWithValue("@password", password);
+
+            connection.Open();
+
+            SqlDataReader sqlDataReader = command.ExecuteReader(CommandBehavior.CloseConnection);
+
+            if (sqlDataReader.Read()) {
+                if (connection.State == ConnectionState.Open) {
+                    connection.Dispose();
+                }
+                return true;
+
+            }
+            else {
+                if (connection.State == ConnectionState.Open) {
+                    connection.Dispose();
+                }
+                return false;
+            }
+        }
+
         private void LogIn() {
             LoginSuccessForm loginSuccessForm = new LoginSuccessForm();
 
-            if ((TextBoxLogin.Text == "admin") && (TextBoxPassowrd.Text == "admin")) {
+            if (isLogedIn()) {
                 this.Hide();
                 loginSuccessForm.Show();
             }

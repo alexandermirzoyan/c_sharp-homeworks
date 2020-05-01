@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,30 @@ using System.Windows.Forms;
 
 namespace LoginForm {
     public partial class SignUp : Form {
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users.mdf;Integrated Security=True;Connect Timeout=30");
+
+        private void insertUser() {
+            string name = TextBoxName.Text;
+            string surname = TextBoxSurname.Text;
+            string email = TextBoxEmail.Text;
+            string login = TextBoxLogin.Text;
+            string password = TextBoxPassowrd.Text;
+
+            string insertQuery = "INSERT INTO UsersTable VALUES(@id, @name, @surname, @email, @login, @password)";
+            SqlCommand command = new SqlCommand(insertQuery, connection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.AddWithValue("@id", 1);
+            command.Parameters.AddWithValue("@name", name);
+            command.Parameters.AddWithValue("@surname", surname);
+            command.Parameters.AddWithValue("@email", email);
+            command.Parameters.AddWithValue("@login", login);
+            command.Parameters.AddWithValue("@password", password);
+
+            connection.Open();
+            command.ExecuteNonQuery();
+            connection.Close();
+        }
+
         public SignUp() {
             InitializeComponent();
         }
@@ -28,6 +53,7 @@ namespace LoginForm {
                 }
                 else {
                     if (TextBoxPassowrd.Text == TextBoxRepeatPassowrd.Text) {
+                        insertUser();
                         string welcomeText = $"Welcome dear {TextBoxName.Text} {TextBoxSurname.Text} to our application \n" +
                         $"Your Login is ::: {TextBoxLogin.Text} \n" +
                         $"Please check your email ::: {TextBoxEmail.Text}";

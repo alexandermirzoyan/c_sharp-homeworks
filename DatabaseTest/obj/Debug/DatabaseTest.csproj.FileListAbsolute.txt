@@ -1,0 +1,10 @@
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\bin\Debug\DatabaseTest.exe.config
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\bin\Debug\DatabaseTest.exe
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\bin\Debug\DatabaseTest.pdb
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\obj\Debug\DatabaseTest.csprojAssemblyReference.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\obj\Debug\DatabaseTest.Form1.resources
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\obj\Debug\DatabaseTest.Properties.Resources.resources
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\obj\Debug\DatabaseTest.csproj.GenerateResource.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\obj\Debug\DatabaseTest.csproj.CoreCompileInputs.cache
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\obj\Debug\DatabaseTest.exe
+C:\Alexandr\Workspace\C#\c_sharp-homeworks\DatabaseTest\obj\Debug\DatabaseTest.pdb
